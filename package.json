@@ -1,0 +1,11 @@
+{
+  "name": "transforms-example",
+  "private": true,
+  "scripts": {
+    "start": "graphclient serve-dev"
+  },
+  "dependencies": {
+    "@graphprotocol/client-cli": "2.2.0",
+    "graphql": "16.6.0"
+  }
+}

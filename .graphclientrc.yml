@@ -1,0 +1,12 @@
+
+sources:
+  - name: exchange
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2
+    transforms:
+      - autoPagination:
+          validateSchema: true
+
+documents:
+  - ./query.graphql

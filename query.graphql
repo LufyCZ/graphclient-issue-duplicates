@@ -1,0 +1,9 @@
+query pairs($first: Int = 10000, $skip: Int = 0, $where: Pair_filter, $block: Block_height) {
+  pairs(first: $first, skip: $skip, where: $where, block: $block) {
+    id
+    # totalSupply
+    # volumeUSD
+    # reserveUSD
+    # trackedReserveETH
+  }
+}
